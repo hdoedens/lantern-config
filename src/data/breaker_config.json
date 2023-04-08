@@ -1,0 +1,193 @@
+{
+  "_id": "629",
+  "panels": [
+    {
+      "account_id": 629,
+      "name": "Panel 1",
+      "index": 1,
+      "spaces": 15,
+      "meter": 0
+    }
+  ],
+  "breaker_hubs": [
+    {
+      "hub": 1,
+      "voltage_calibration_factor": 0.7862707514313718,
+      "port_calibration_factor": 1.3840000000000001,
+      "phase_cnt": 2,
+      "phase_offset_ns": 0,
+      "frequency": 60
+    }
+  ],
+  "breaker_groups": [
+    {
+      "_id": "1",
+      "account_id": 629,
+      "name": "Home",
+      "sub_groups": [
+        {
+          "_id": "2",
+          "account_id": 629,
+          "name": "Woonkamer",
+          "breakers": [
+            {
+              "panel": 1,
+              "space": 1,
+              "meter": 0,
+              "hub": 1,
+              "port": 1,
+              "name": "Woonkamer",
+              "size_amps": 30,
+              "phase_offset_ns": 0,
+              "calibration_factor": 1.0,
+              "low_pass_filter": 1.6,
+              "polarity": "NORMAL",
+              "double_power": false,
+              "type": "SINGLE_POLE",
+              "main": false
+            }
+          ]
+        },
+        {
+          "_id": "7",
+          "account_id": 629,
+          "name": "Vaatwasser",
+          "breakers": [
+            {
+              "panel": 1,
+              "space": 5,
+              "meter": 0,
+              "hub": 1,
+              "port": 3,
+              "name": "Vaatwasser",
+              "size_amps": 30,
+              "phase_offset_ns": 0,
+              "calibration_factor": 1.0,
+              "low_pass_filter": 1.6,
+              "polarity": "NORMAL",
+              "double_power": false,
+              "type": "SINGLE_POLE",
+              "main": false
+            }
+          ]
+        },
+        {
+          "_id": "28",
+          "account_id": 629,
+          "name": "Auto 1",
+          "breakers": [
+            {
+              "panel": 1,
+              "space": 13,
+              "meter": 0,
+              "hub": 1,
+              "port": 13,
+              "name": "Auto 1",
+              "size_amps": 30,
+              "phase_offset_ns": 0,
+              "calibration_factor": 1.0,
+              "low_pass_filter": 1.6,
+              "polarity": "NORMAL",
+              "double_power": false,
+              "type": "SINGLE_POLE",
+              "main": false
+            }
+          ]
+        },
+        {
+          "_id": "45",
+          "account_id": 629,
+          "name": "Garage Links",
+          "breakers": [
+            {
+              "panel": 1,
+              "space": 12,
+              "meter": 0,
+              "hub": 1,
+              "port": 12,
+              "name": "Garage Links",
+              "size_amps": 30,
+              "phase_offset_ns": 0,
+              "calibration_factor": 1.0,
+              "low_pass_filter": 1.6,
+              "polarity": "NORMAL",
+              "double_power": false,
+              "type": "SINGLE_POLE",
+              "main": false
+            }
+          ]
+        },
+        {
+          "_id": "49",
+          "account_id": 629,
+          "name": "Oven ",
+          "breakers": [
+            {
+              "panel": 1,
+              "space": 6,
+              "meter": 0,
+              "hub": 1,
+              "port": 6,
+              "name": "Oven ",
+              "size_amps": 20,
+              "phase_offset_ns": 0,
+              "calibration_factor": 1.0,
+              "low_pass_filter": 1.6,
+              "polarity": "NORMAL",
+              "double_power": false,
+              "type": "SINGLE_POLE",
+              "main": false
+            }
+          ]
+        },
+        {
+          "_id": "52",
+          "account_id": 629,
+          "name": "Magnetron",
+          "breakers": [
+            {
+              "panel": 1,
+              "space": 4,
+              "meter": 0,
+              "hub": 1,
+              "port": 9,
+              "name": "Magnetron",
+              "size_amps": 30,
+              "phase_offset_ns": 0,
+              "calibration_factor": 1.0,
+              "low_pass_filter": 1.6,
+              "polarity": "NORMAL",
+              "double_power": false,
+              "type": "SINGLE_POLE",
+              "main": false
+            }
+          ]
+        },
+        {
+          "_id": "56",
+          "account_id": 629,
+          "name": "Droger",
+          "breakers": [
+            {
+              "panel": 1,
+              "space": 10,
+              "meter": 0,
+              "hub": 1,
+              "port": 10,
+              "name": "Droger",
+              "size_amps": 30,
+              "phase_offset_ns": 0,
+              "calibration_factor": 1.0,
+              "low_pass_filter": 1.6,
+              "polarity": "NORMAL",
+              "double_power": false,
+              "type": "SINGLE_POLE",
+              "main": false
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "version": 39
+}
