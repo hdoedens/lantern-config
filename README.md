@@ -5,6 +5,14 @@ A React based front end to configure the Lantern Power Monitor config file direc
 - lantern-config-api NodeJS running on the Raspberry Pi
 - [Modified](https://github.com/hdoedens/LanternPowerMonitor) Current Monitor Java project copied to the Pi
 
+## Build
+
+- Install npm
+- Clone this repo
+- Run `npm run build`
+
+(To run a local instance for development run `npx vite`)
+
 ## Installation
 Follow instructions to copy [SD card image](https://cf.lanternpowermonitor.com/hub_1.1.1.zip) to an SD card using [Balena Etcher](https://www.balena.io/etcher/) for example.
 ### Install and configure nginx
